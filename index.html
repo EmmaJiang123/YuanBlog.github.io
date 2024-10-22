@@ -88,7 +88,17 @@
                             </div>
                         </div>
                         <div class="link-btn">
-                            <a href="http://www.17sucai.com/" class="theme-btn btn-style-one">Download CV</a>
+                            <a href="http://www.17sucai.com/"  class="theme-btn btn-style-one">Download CV</a>
+                            <!-- <script>
+                                document.getElementById("download-btn").addEventListener("click", function () {
+                                    const link = document.createElement("a");
+                                    link.href = "path/to/your/resume.pdf";
+                                    link.download = "Emma_Jiang_Resume.pdf";
+                                    document.body.appendChild(link);
+                                    link.click();
+                                    document.body.removeChild(link);
+                                });
+                            </script> -->
                         </div>
                         <ul class="social-icon-two">
                             <li><a href="#"><span class="fa fa-facebook"></span></a></li>
@@ -131,7 +141,17 @@
                                 <div class="text">Masters student in Computer Science graduating in May of 2025 seeking a challenging position in a collaborative
                                     software engineering environment. Particularly interested in software engineering opportunities.</div>
                                 <div class="link-btn">
-                                    <a href="#" class="theme-btn btn-style-one">Download CV</a>
+                                    <a id="download-btn" href="#" class="theme-btn btn-style-one">Download CV</a>
+                                    <script>
+                                        document.getElementById("download-btn").addEventListener("click", function () {
+                                            const link = document.createElement("a");
+                                            link.href = "path/to/your/resume.pdf";
+                                            link.download = "Emma_Jiang_Resume.pdf";
+                                            document.body.appendChild(link);
+                                            link.click();
+                                            document.body.removeChild(link);
+                                        });
+                                    </script>
                                     <a href="#" class="theme-btn btn-style-two">Hire Me</a>
                                 </div>
                                 <ul class="social-icon-two">
